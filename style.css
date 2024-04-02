@@ -1,0 +1,256 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.container{
+	position: relative;
+	width: 100%;
+	max-width: 1300px;
+	min-height: 1000px;
+	background: #fff;
+	margin: 50px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_side{
+	min-width: 300px;
+	position: relative;
+	background: #003147;
+	padding: 40px;
+}
+.profile{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom-color: 1px solid rgba(255,255,255,0.2);
+}
+.profile .img{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.profile .img img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.profile h2{
+	color: #fff;
+	font-size: 1.39em;
+	margin-top: 30px;
+	margin-right: -20px;
+	margin-left: -20px;
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.4em;
+}
+.profile h4{
+	margin-top: -10px;
+	color: #00FFFF;
+}
+.professional_summary{
+	padding-top: 0px;
+	position: relative
+}
+.professional_summary p{
+	color: #fff;
+	position: relative;
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 20px;
+	margin-right: -20px;
+	font-size: 17px;
+	border-left: 4px solid #00FFFF;
+}
+.personal{
+	padding-top: 10px;
+}
+.personal ul{
+	position: relative
+}
+.personal ul li{
+	color: #87CEFA;
+	position: relative;
+	list-style: none;
+	margin-left: -30px;
+	padding-left: 20px;
+	margin-right: -20px;
+	font-size: 17px;
+}
+.personal ul li span{
+	color: #d3d3d3;
+}
+.personal_info{
+	border-top: 4px solid gray;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.contact_info{
+	color: #87CEFA;
+	position: relative;
+	list-style: none;
+	margin-left: 10px;
+	padding-left: 20px;
+	margin-right: -20px;
+	font-size: 17px;
+}
+.education{
+	padding-top: 20px;
+}
+.education ul{
+	position: relative
+}
+.education ul li{
+	color: #87CEFA;
+	position: relative;
+	list-style: none;
+	margin-left: -30px;
+	padding-left: 20px;
+	margin-right: -20px;
+	font-size: 17px;
+}
+.education ul li span{
+	padding-left: 30px;
+	color: #d3d3d3;
+}
+.education_info{
+	color: #fff;
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.educational_attainment{
+	padding-left: 10px;
+	font-size: 17px;
+	color: #00FFFF;
+}
+.container .right_side{
+	position: relative;
+	background: #fff;
+	padding: 40px;
+}
+.work{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	border-top: 50px solid #003147;
+}
+.work_experience{
+	color: #003147;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+.work .box{
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0;
+}
+.work .box .company{
+	min-width: 200px;
+}
+.work .box .company h5{
+	text-transform: uppercase;
+	color: #848c90;
+	font-weight: 600;
+	font-size: 20px;
+}
+.work .box .text h4{
+	text-transform: uppercase;
+	color: 2a7da2;
+	font-size: 20px;
+}
+p{
+	color: #333;
+	font-size: 20px;
+}
+.skills{
+	border-top: 4px solid #87CEFA;
+	padding-left: 10px;
+	color: #003147;
+	font-size: 25px;
+}
+.box{
+	width: 800px;
+	margin-top: -20px;
+	display: table;
+	box-sizing: border-box;
+}
+.row1{
+	margin: 20px 0;
+}
+.column{
+	background: #000;
+	display: table-cell;
+	padding: 10px;
+	width: 33.33333%;
+	text-align: left;
+	border-left: 10px solid #fff;
+	border-right: 10px solid #fff;
+}
+.row1 .column:nth-child(1){
+	background: #79addc;
+	color: #000;
+}
+.row1 .column:nth-child(2){
+	background: #ffc09f;
+	color: #000;
+}
+.row2{
+	margin-bottom: 50px;
+}
+.row2 .column:nth-child(1){
+	background: #ffee93;
+	color: #000;
+}
+.row2 .column:nth-child(2){
+	background: #fcf5c7;
+	color: #000;
+}
+.row2 .column:nth-child(3){
+	background: #adf7b6;
+	color: #000;
+}
+.projects{
+	border-top: 4px solid #87CEFA;
+	padding-left: 10px;
+	color: #003147;
+	font-size: 25px;
+}
+.projects_content{
+	font-size: 20px;
+	color: #000;
+	border-bottom: 4px solid #87CEFA;
+}
+.last_part h2{
+	border-top: 4px solid darkgray;
+	padding-left: 10px;
+}
+.last_part ul{
+	border-bottom: 4px dashed darkgray;
+}
+.last_part ul li{
+	text-decoration: none;
+	display: inline-block;
+	margin: 20px;
+}
